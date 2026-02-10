@@ -13,7 +13,7 @@
 ## 설치
 
 ```bash
-cd /Users/kimbyungsun/project/gemini/today-work-log-mcp
+cd /path/to/today-work-log-mcp
 npm install
 chmod +x index.js
 ```
@@ -29,7 +29,7 @@ chmod +x index.js
   "mcpServers": {
     "today-work-log": {
       "command": "node",
-      "args": ["/Users/kimbyungsun/project/gemini/today-work-log-mcp/index.js"]
+      "args": ["/path/to/today-work-log-mcp/index.js"]
     }
   }
 }
@@ -44,7 +44,7 @@ Cursor의 MCP 설정 파일에 유사하게 추가:
   "mcpServers": {
     "today-work-log": {
       "command": "node",
-      "args": ["/Users/kimbyungsun/project/gemini/today-work-log-mcp/index.js"]
+      "args": ["/path/to/today-work-log-mcp/index.js"]
     }
   }
 }
@@ -58,7 +58,7 @@ Cursor의 MCP 설정 파일에 유사하게 추가:
 
 ```
 오늘 작업한 내용을 요약해줘
-리포지토리 경로: /Users/kimbyungsun/project/gemini/workflow
+리포지토리 경로: /path/to/your-repo
 ```
 
 Claude가 자동으로 `get_todays_git_diff` 도구를 호출하여 커밋 내역과 코드 변경사항을 가져온 후 요약해줍니다.
@@ -69,7 +69,7 @@ Claude가 자동으로 `get_todays_git_diff` 도구를 호출하여 커밋 내�
 📊 오늘의 Git 작업 내역 (2026. 2. 10.)
 
 작성자: Kim Byungsun
-리포지토리: /Users/kimbyungsun/project/gemini/workflow
+리포지토리: /path/to/your-repo
 
 ========================================
 Commit: abc123...

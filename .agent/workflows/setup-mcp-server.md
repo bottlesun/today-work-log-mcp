@@ -11,7 +11,7 @@ description: MCP 서버 설치 및 Claude Desktop 연동 방법
 프로젝트 디렉토리로 이동하여 npm 패키지를 설치합니다.
 
 ```bash
-cd /Users/kimbyungsun/project/gemini/today-work-log-mcp
+cd /path/to/today-work-log-mcp
 npm install
 ```
 
@@ -47,7 +47,7 @@ touch ~/Library/Application\ Support/Claude/claude_desktop_config.json
   "mcpServers": {
     "today-work-log": {
       "command": "node",
-      "args": ["/Users/kimbyungsun/project/gemini/today-work-log-mcp/index.js"]
+      "args": ["/path/to/today-work-log-mcp/index.js"]
     }
   }
 }
@@ -70,7 +70,7 @@ Claude Desktop에서 MCP 도구가 정상적으로 로드되었는지 확인합�
 
 ```
 오늘 작업한 내용을 요약해줘
-리포지토리 경로: /Users/kimbyungsun/project/gemini/workflow
+리포지토리 경로: /path/to/your-repo
 ```
 
 Claude가 `get_todays_git_diff` 도구를 사용하여 커밋 내역을 가져와야 합니다.
@@ -81,20 +81,20 @@ Claude가 `get_todays_git_diff` 도구를 사용하여 커밋 내역을 가져�
 
 ```
 오늘의 작업 내역을 바탕으로 TIL을 작성해줘
-리포지토리: /Users/kimbyungsun/project/gemini/workflow
+리포지토리: /path/to/your-repo
 ```
 
 ### 업무 보고서
 
 ```
 오늘 작업한 내용으로 간단한 업무 보고서를 만들어줘
-리포지토리: /Users/kimbyungsun/project/gemini/gameNews
+리포지토리: /path/to/another-repo
 ```
 
 ### 여러 리포지토리 통합
 
 ```
 다음 리포지토리들의 오늘 작업 내역을 각각 요약해줘:
-1. /Users/kimbyungsun/project/gemini/workflow
-2. /Users/kimbyungsun/project/gemini/gameNews
+1. /path/to/your-repo
+2. /path/to/another-repo
 ```
