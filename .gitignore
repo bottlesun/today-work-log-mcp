@@ -1,0 +1,8 @@
+# Today Work Log MCP
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+*.log

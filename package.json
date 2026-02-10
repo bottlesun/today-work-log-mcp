@@ -1,0 +1,19 @@
+{
+  "name": "today-work-log-mcp",
+  "version": "1.0.0",
+  "description": "MCP server to extract today's Git work history (commits and diffs)",
+  "type": "module",
+  "bin": {
+    "today-work-log-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "git", "diff", "work-log", "til"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.24.1"
+  }
+}

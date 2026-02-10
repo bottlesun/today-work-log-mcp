@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "today-work-log": {
+      "command": "node",
+      "args": ["/Users/kimbyungsun/project/gemini/today-work-log-mcp/index.js"]
+    }
+  }
+}
